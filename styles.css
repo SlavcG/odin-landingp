@@ -1,8 +1,10 @@
 body {
-    background-color: peachpuff;
+    background-color: black;
     margin: 0px 200px;
     font-family: 'Roboto', sans-serif;
 }
+
+/* Header and Navbar */
 
 .navbar {
     display: flex;
@@ -14,7 +16,6 @@ body {
 
 .logo {
     margin-left: 200px;
-    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     color: white;
     font-weight: bolder;
@@ -41,6 +42,7 @@ body {
     background-color: #1f2937;
     padding-top: 100px;
     color: white;
+    margin: 0;
 }
 
 .header-text {
@@ -49,10 +51,10 @@ body {
 }
 
 .header-text h1 {
-    font-weight: bold;
+    font-weight: 900;
     font-size: 48px;
     margin: auto;
-} 
+}
 
 .img-place {
     background-image: url(./images/imgplace.png);
@@ -66,7 +68,7 @@ body {
 .sign-up {
     background-color: #3882F6;
     color: white;
-    font-weight: bolder;
+    font-weight: 800;
     padding: 10px 20px;
     border-radius: 10px;
     text-align: center;
@@ -74,4 +76,43 @@ body {
     width: 150px;
     font-size: 18px;
     border: none;
+}
+
+/* Info section */
+
+.info-section {
+    background-color: white;
+    height: 450px;
+}
+
+.info-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 300px;
+}
+
+.rndtext {
+    display: block;
+    text-align: center;
+    padding: 50px 0;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.infobox {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882F6;
+    border-radius: 10%;
+    margin-bottom: 10px;
+}
+
+.rndboxes {
+    width: 160px;
+    text-align: center;
+}
+
+.boxdesc {
+    color: gray;
+    font-size: 17px;
 }
