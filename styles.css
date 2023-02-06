@@ -82,7 +82,7 @@ body {
 
 .info-section {
     background-color: white;
-    height: 450px;
+    height: 480px;
 }
 
 .info-content {
@@ -115,4 +115,113 @@ body {
 .boxdesc {
     color: gray;
     font-size: 17px;
+}
+
+/* Quote section */
+
+.quote-section {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    color: #1f2937;
+
+}
+
+.quote-text,
+.quote-signature {
+    margin: 0 300px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    text-align: left;
+    height: 200px;
+    margin-top: 100px;
+}
+
+.quote-signature {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    height: 100px;
+    margin-right: 340px;
+}
+
+/* Signup section */
+
+.signup-section {
+    display: flex;
+    height: 350px;
+    width: 1430px;
+    background-color: white;
+}
+
+.call-for-action {
+    display: flex;
+    height: 150px;
+    width: 1000px;
+    background-color: #3882f6;
+    margin-left: 200px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.signup-text {
+    width: 70%;
+    margin: 10px 0 0 20px;
+}
+
+.signup-button {
+    width: 30%;
+    margin: 60px 0 0 120px;
+}
+
+.herotext {
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 40px 0 0 100px;
+}
+
+.bigtext {
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+
+.button {
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    height: 36px;
+    width: 140px;
+}
+
+.button:hover {
+    background-color: white;
+    color: #3882f6;
+}
+
+footer {
+    height: 100px;
+    width: 1430px;
+    background-color: #1f2937;
+    display: flex;
+    border: 1px solid;
+}
+
+.footext {
+    color: white;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 100;
+    margin: 38px 0 0 600px
 }
